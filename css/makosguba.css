@@ -36,8 +36,10 @@ table td{
 
 #jel{
     background-color: #d3d3d3;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    box-shadow: 5px 2px 2px black;
+    border-radius: 2%;
 }
 
 .jelol:hover{
@@ -49,7 +51,7 @@ ol li{
     text-align: left;
 }
 
-ul li{
+.hozzavalo{
     padding: 5px;
     text-align: left;
 }
