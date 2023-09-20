@@ -1,0 +1,34 @@
+main{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+main .container{
+    width: 90%;
+    margin-top: 25px;
+    border: solid 2px black;
+
+    box-shadow: 5px 5px 5px;
+}
+
+main .row{
+
+    
+
+    border: solid 2px white;
+
+    background-color: blue;
+}
+
+main .col{
+
+    border: solid 2px gray;
+
+    background-color: brown;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline solid 2px;
+}
