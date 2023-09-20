@@ -8,6 +8,9 @@ body{
     margin-right: auto;
     text-align: center;
     width: 90%;
+    background: linear-gradient(to left top, rgb(48, 141, 153) 40%, rgb(28, 34, 114) 60%);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 1%;
 }
 
 h1{
@@ -42,15 +45,49 @@ hr{
     background: black;
 }
 
-#tablazat{
-    background: radial-gradient(circle at left top, rgb(241, 241, 241) 40%, rgb(167, 221, 145) 60%);
-    border-collapse: collapse;
-    box-shadow: 5px 5px 15px black;
-    color: black;
+h2{
+    color: white;
+    font-variant: small-caps;
 }
 
-#tablacim{
-    font-weight: bold;
+#lista{
+    background: radial-gradient(circle at left top, purple 40%, blue 60%);
+    box-shadow: 5px 5px 15px black;
+    color: white;
+    border: 2px solid black;
+    text-align: left;
     font-variant: small-caps;
-    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rizs{
+    background: radial-gradient(circle at left top, blue 40%, purple 60%);
+    box-shadow: 5px 5px 15px black;
+    color: white;
+    border: 2px solid black;
+    text-align: left;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    color: white;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: left;
+    text-align: justify;
+    color: white;
+    text-indent: 10px;
+    padding: 10px;
 }
