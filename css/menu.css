@@ -13,22 +13,37 @@ main .container{
 }
 
 main .row{
+    border: solid 2px red;
 
-    
 
-    border: solid 2px white;
-
-    background-color: blue;
 }
 
 main .col{
+    border: solid 2px cyan;
 
-    border: solid 2px gray;
 
-    background-color: brown;
 }
 
 h2{
     text-align: center;
     text-decoration: underline solid 2px;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline solid 1px;
+}
+
+main img{
+    display: block;
+    height: 300px;
+    width: 500px;
+    border: solid 10px brown;
+    border-radius: 150px;
+    float: right;
+}
+
+main img:nth-of-type(even){
+    
+    border: solid 10px red;
 }
