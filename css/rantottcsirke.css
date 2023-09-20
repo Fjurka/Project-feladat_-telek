@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to right top, rgb(48, 141, 153) 40%, rgb(28, 34, 114) 60%) fixed;
+    background-repeat: no-repeat;
+}
+
+#rantottcsirke{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+}
+
+h1{
+    text-align: center;
+    margin: 15px;
+    color: white;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+
+#masodikB{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+#elsoB{
+    color: white;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#elsoB::first-letter{
+    font-size: 150%;
+}
+
+hr{
+    border: none;
+    position: relative;
+    height: 5px;
+    background: black;
+}
+
+#tablazat{
+    background: radial-gradient(circle at left top, rgb(241, 241, 241) 40%, rgb(167, 221, 145) 60%);
+    border-collapse: collapse;
+    box-shadow: 5px 5px 15px black;
+    color: black;
+}
+
+#tablacim{
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+}
