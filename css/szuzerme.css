@@ -16,12 +16,42 @@ table td{
     text-align: center;
 }
 
+h2{
+    margin-top: 15px;
+}
+
+span{
+    font-weight: bold;
+}
+
+ol li{
+    padding: 5px;
+    text-align: left;
+}
+
+#jel{
+    background-color: #d3d3d3;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    box-shadow: 5px 2px 2px black;
+    border-radius: 2%;
+}
+
 .sor1{
     height: 250px;
 }
 
 .sor2{
     height: 250px;
+}
+
+.hozzavalo{
+    padding: 5px;
+    text-align: left;
+}
+
+#jelol:hover{
+    background-color: #bebebe;
 }
 
 #kep{
@@ -34,32 +64,6 @@ table td{
     border: 2px solid black;
 }
 
-#jel{
-    background-color: #d3d3d3;
-    margin-top: 70px;
-    margin-bottom: 10px;
-    box-shadow: 5px 2px 2px black;
-    border-radius: 2%;
-}
-
-.jelol:hover{
-    background-color: #bebebe;
-}
-
-ol li{
-    padding: 5px;
-    text-align: left;
-}
-
-.hozzavalo{
-    padding: 5px;
-    text-align: left;
-}
-
-span{
-    font-weight: bold;
-}
-
-h2{
-    margin-top: 15px;
+.vastag{
+    max-width: 350px;
 }
