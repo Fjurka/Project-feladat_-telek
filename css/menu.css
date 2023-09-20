@@ -1,3 +1,7 @@
+nav{
+    display: block;
+}
+
 main{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -8,20 +12,12 @@ main .container{
     width: 90%;
     margin-top: 25px;
     border: solid 2px black;
-
+    padding: 20px;
     box-shadow: 5px 5px 5px;
 }
 
 main .row{
-    border: solid 2px red;
-
-
-}
-
-main .col{
-    border: solid 2px cyan;
-
-
+    border: solid 2px black;
 }
 
 h2{
@@ -44,6 +40,6 @@ main img{
 }
 
 main img:nth-of-type(even){
-    
+    float: left;
     border: solid 10px red;
 }
