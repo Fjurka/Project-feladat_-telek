@@ -1,0 +1,19 @@
+#tarol{
+    border: 2px solid black;
+    border-radius: 5%;
+    height: 450px;
+    padding: 15px;
+    min-width: 333px;
+    width: 333px;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+img{
+    max-width: 300px;
+    border-radius: 2%;
+    border: 1px solid black;
+}
