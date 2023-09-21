@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right top, rgb(48, 141, 153) 40%, rgb(28, 34, 114) 60%) fixed;
+    background: white fixed;
     background-repeat: no-repeat;
 }
 
@@ -7,10 +7,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 90%;
-    background: linear-gradient(to left top, rgb(48, 141, 153) 40%, rgb(28, 34, 114) 60%);
-    box-shadow: 5px 5px 5px black;
-    border-radius: 1%;
+    width: 70%;
+    background: linear-gradient(to right top, rgb(153, 108, 50) 40%, rgb(192, 189, 20) 60%);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    border: 2px solid black;
 }
 
 h1{
@@ -32,6 +35,7 @@ h1{
     color: white;
     letter-spacing: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 #elsoB::first-letter{
@@ -51,7 +55,7 @@ h2{
 }
 
 #lista{
-    background: radial-gradient(circle at left top, purple 40%, blue 60%);
+    background: radial-gradient(circle at left top, rgb(146, 112, 146) 40%, rgb(98, 98, 252) 60%);
     box-shadow: 5px 5px 15px black;
     color: white;
     border: 2px solid black;
@@ -65,7 +69,7 @@ h2{
 }
 
 #rizs{
-    background: radial-gradient(circle at left top, blue 40%, purple 60%);
+    background: radial-gradient(circle at left top, rgb(146, 112, 146) 40%, rgb(98, 98, 252) 60%);
     box-shadow: 5px 5px 15px black;
     color: white;
     border: 2px solid black;
@@ -89,5 +93,10 @@ p{
     text-align: justify;
     color: white;
     text-indent: 10px;
-    padding: 10px;
+    padding: 30px;
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 50%;
 }
