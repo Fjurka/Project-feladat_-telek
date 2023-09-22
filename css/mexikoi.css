@@ -50,13 +50,13 @@ ol li{
     text-align: left;
 }
 
-#jelol:hover{
+.jelol:hover{
     background-color: #bebebe;
 }
 
-#kep{
+.kep{
     max-width: 350px;
-    width: 80%;
+    width: 100%;
     border-radius: 5%;
     float: inherit;
     margin-left: 0px;
