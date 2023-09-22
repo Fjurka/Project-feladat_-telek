@@ -24,7 +24,7 @@ table td{
     height: 250px;
 }
 
-#kep{
+.kep{
     max-width: 350px;
     width: 80%;
     border-radius: 5%;
