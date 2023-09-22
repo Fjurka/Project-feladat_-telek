@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(30deg, red, orange, red);
     background-attachment: fixed;
+    font-family: Arial;
 }
 
 main{
@@ -61,4 +62,8 @@ main a:hover{
 main ol li{
     text-indent: 12px;
     line-height: 1.8em;
+}
+
+main p{
+    text-indent: 12px;
 }
