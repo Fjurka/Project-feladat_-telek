@@ -52,6 +52,10 @@ main ol li{
     line-height: 1.8em;
 }
 
+main ol li:hover{
+    background-color: #bebebe;
+}
+
 main p{
     text-indent: 12px;
 }
