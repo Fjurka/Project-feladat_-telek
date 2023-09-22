@@ -1,10 +1,10 @@
 body{
     background: linear-gradient(30deg, red, orange, red);
     background-attachment: fixed;
+    font-family: Arial;
 }
 
 main{
-    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
@@ -13,12 +13,15 @@ main{
 main .container{
     border: solid 1px black;
     border-radius: 20px;
-    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     background-color: wheat;
     box-shadow: 5px 5px 5px;
+}
+
+main .container:last-of-type{
+    margin-bottom: 30px;
 }
 
 main img{
@@ -59,4 +62,8 @@ main a:hover{
 main ol li{
     text-indent: 12px;
     line-height: 1.8em;
+}
+
+main p{
+    text-indent: 12px;
 }
