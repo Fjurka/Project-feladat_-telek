@@ -23,3 +23,8 @@ main img{
 p{
     text-align: justify;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
