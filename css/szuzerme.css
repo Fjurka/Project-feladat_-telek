@@ -18,6 +18,9 @@ table td{
 
 h2{
     margin-top: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 1px;
 }
 
 span{
@@ -31,11 +34,12 @@ ol li{
 
 #jel{
     background-color: #d3d3d3;
-    margin-top: 70px;
     margin-bottom: 10px;
     box-shadow: 5px 2px 2px black;
     border-radius: 20px;
     width: 90%;
+    border: 1px solid black;
+    font-family: Arial;
 }
 
 .sor1{
@@ -65,6 +69,12 @@ ol li{
     border: 2px solid black;
 }
 
-.vastag{
+.vastag { 
     max-width: 350px;
+}
+
+th {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
