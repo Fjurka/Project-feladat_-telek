@@ -8,6 +8,10 @@
     box-shadow: 5px 5px 5px black;
 }
 
+.jel.container:last-of-type{
+    margin-bottom: 30px;
+}
+
 .jel{
     width: 90%;
 }
@@ -16,15 +20,37 @@
 .kep1{
     display: block;
     max-height: 240px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .kep2{
     display: block;
     max-height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+}
+
+.kep3{
+    display: block;
+    max-height: 270px;
+    margin: auto;
+}
+
+.kep4{
+    display: block;
+    max-height: 700px;
+    margin: auto;
+}
+
+.kep5{
+    display: block;
+    max-height: 210px;
+    margin: auto;
+}
+
+.kep6{
+    display: block;
+    max-height: 400px;
+    margin: auto;
 }
 
 .jelol:hover{
@@ -64,3 +90,4 @@ h2 {
 .koz {
     text-align: center;
 }
+
