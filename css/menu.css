@@ -19,8 +19,9 @@ main .container:last-of-type{
     margin-bottom: 30px;
 }
 
-main img{
-    margin-bottom: 10px;
+main .container .img-thumbnail{
+    display: block;
+    margin: auto;
 }
 
 main h2{
@@ -35,6 +36,7 @@ main h4{
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 main ul{
