@@ -63,7 +63,7 @@ h2{
 }
 
 .box:hover{
-    animation: buborekanim 1.5s linear 1 forwards;
+    animation: buborekanim 0.3s linear 1 forwards;
 }
 
 @keyframes buborekanim{
