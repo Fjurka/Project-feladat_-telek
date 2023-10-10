@@ -18,6 +18,10 @@ main{
     margin-right: 15px
 }
 
+nav img{
+    height: 30px;
+}
+
 main img{
     max-width: 300px;
     border-radius: 2%;

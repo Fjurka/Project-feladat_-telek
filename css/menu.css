@@ -5,6 +5,10 @@ main{
     width: 90%;
 }
 
+nav img{
+    height: 30px;
+}
+
 main .container{
     border: solid 1px black;
     border-radius: 20px;
