@@ -66,6 +66,11 @@ h2{
     animation: buborekanim 0.3s linear 1 forwards;
 }
 
+/*.box:not(:hover){
+    animation: bubianimki 0.3s linear 1 forwards;
+} */
+
+
 @keyframes buborekanim{
     from{
         opacity: 0;
@@ -76,3 +81,14 @@ h2{
         transform: scale(1);
     }
 }
+
+/* @keyframes bubianimki {
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(0);
+    }
+} */
